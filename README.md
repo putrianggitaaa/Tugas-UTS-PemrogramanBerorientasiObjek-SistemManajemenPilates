@@ -103,3 +103,67 @@ Perulangan juga diterapkan pada proses validasi input melalui class InputValidat
 
 Selain itu, perulangan digunakan ketika program menampilkan kumpulan data yang tersimpan dalam collection. Data seperti member, instruktur, jenis kelas, dan daftar kelas perlu ditampilkan satu per satu sehingga setiap elemen dalam collection dapat diproses dan ditampilkan kepada pengguna. Dengan menggunakan perulangan, program tidak perlu menuliskan perintah untuk menampilkan setiap objek secara manual. Penerapan ini membuat kode menjadi lebih efisien dan memungkinkan program menampilkan seluruh data yang jumlahnya dapat berubah sesuai dengan data yang ditambahkan oleh pengguna.
 
+# DOKUMENTASI ALUR PROGRAM
+## Tampilan Menu Utama
+<img width="577" height="288" alt="image" src="https://github.com/user-attachments/assets/67f32051-90ad-465d-9f5d-79f7a73315c0" />
+
+Pada bagian ini pengguna akan diberikan beberapa pilihan menu yang dapat digunakan untuk mengelola data. Terdapat menu member yang berfungsi untuk mengelola data member, menu Instruktur yang digunakan untuk mengelola data instruktur, menu jenis kelas yang digunakan untuk mengelola jenis kelas yang tersedia, serta menu pendaftaran kelas yang digunakan untuk mengelola daftar kelas yang akan dilaksanakan di studio pilates ini. Program ini dilengkapi input validator yang apabila kita menginput menu diluar dari 1-5, maka akan muncul pemberitahuan agar memilih menu dengan benar.
+
+## Menu Member
+
+<img width="517" height="316" alt="image" src="https://github.com/user-attachments/assets/2973e5a5-7fae-4dd9-851f-3a9502622c48" />
+
+Menu member berisi 2 sub menu yaitu lihat dan tambah member yang fungsinya sebagai berikut:
+
+* **1. Tambah Member**
+<img width="522" height="347" alt="image" src="https://github.com/user-attachments/assets/edccefd8-0ad0-4341-ad5d-74300ba800dd" />
+
+Pada sub menu ini, pengguna dapat menambahkan member baru yang akan bergabung untuk mengikuti kelas di studio dengan memasukkan data-data pribadi member tersebut. Program ini dilengkapi dengan input validator sehingga pengguna tidak akan dapat memasukkan ID yang sama secara berulang dan tidak dapat mengosongkan nama atribut.
+
+* **2. Lihat Member**
+
+<img width="465" height="412" alt="image" src="https://github.com/user-attachments/assets/e56367f0-355c-4853-8fe8-cc309a52e681" />
+
+Pada sub menu ini, pengguna dapat melihat daftar member yang telah terdaftar pada sistem.
+
+* **3. Kembali**
+  
+<img width="555" height="318" alt="image" src="https://github.com/user-attachments/assets/01bba284-6a2b-4023-b99a-cbac8ae948cf" />
+
+Pada sub menu ini, pengguna dapat kembali ke menu utama program.
+
+## Menu Instruktur 
+
+<img width="515" height="218" alt="image" src="https://github.com/user-attachments/assets/3656bc5d-e70e-4bdd-aa13-0e557f69b323" />
+
+Menu instruktur berisi 2 sub menu yaitu lihat dan tambah instruktur yang fungsinya sebagai berikut:
+
+* **1. Tambah Instruktur**
+* 
+<img width="651" height="365" alt="image" src="https://github.com/user-attachments/assets/be79c176-708b-4fc3-8f99-49e79d7732c6" />
+
+Pada sub menu ini, pengguna dapat menambahkan instruktur baru yang akan bergabung untuk memandu kelas di studio dengan memasukkan data-data pribadi instruktur tersebut. Program ini dilengkapi dengan input validator sehingga pengguna tidak akan dapat memasukkan ID yang sama secara berulang dan tidak dapat mengosongkan nama atribut.
+
+* **2. Lihat Instruktur**
+  
+
+
+Pada sub menu ini, pengguna dapat melihat daftar instruktur yang telah terdaftar pada sistem.
+
+
+* **3. Kembali**
+
+
+## Menu Jenis Kelas
+* **1. Tambah Jenis Kelas**
+* **2. Lihat Jenis Kelas**
+* **3. Kembali**
+
+## Menu Daftar Kelas
+* **1. Lihat Daftar Kelas**
+* **2. Pendaftaran Kelas**
+* **3. Hapus Kelas**
+* **4. Update Status Kelas**
+* **5. Kembali**
+  
+## Keluar
