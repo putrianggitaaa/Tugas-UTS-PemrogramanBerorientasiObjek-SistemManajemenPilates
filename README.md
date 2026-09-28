@@ -62,3 +62,31 @@ Keyword extends menunjukkan bahwa JenisKelasPrivate merupakan subclass dari Jeni
 <img width="867" height="478" alt="image" src="https://github.com/user-attachments/assets/2b9e9fc1-0343-4d53-84e6-5cfa377a4228" />
 
 JenisKelasPrivateVip merupakan turunan dari class JenisKelasPrivate sehingga dapat mewarisi atribut dan method yang dimiliki oleh class tersebut. Class ini kemudian menambahkan atribut khusus berupa fasilitas untuk menyimpan fasilitas tambahan pada kelas Pilates VIP. Constructor menggunakan super() untuk memanggil constructor dari class induk dan mengisi data yang diwariskan, kemudian this.fasilitas digunakan untuk menyimpan data fasilitas khusus VIP. Dengan inheritance ini, class JenisKelasPrivateVip dapat menggunakan kembali fitur dari JenisKelasPrivate tanpa harus menuliskan ulang kode yang sama.
+
+# KODE YANG MENERAPKAN POLYMORPHISM
+Polymorphism diterapkan pada Superclass nya yaitu JenisKelas.java serta subclass nya yaitu JenisKelasPublik,java. JenisKelasPrivate.java, dan JenisKelasPrivateVip.java. Penjelasannya adalah sebagai berikut:
+
+## JenisKelas.java
+<img width="582" height="171" alt="image" src="https://github.com/user-attachments/assets/70ba908b-c96a-4aab-bb7f-d900dd7226d4" />
+
+Class JenisKelas menjadi class induk (superclass) yang memiliki method tampilkanInfo(). Method ini digunakan untuk menampilkan informasi dasar dari suatu jenis kelas, seperti ID jenis, nama jenis, level, dan durasi. Method tampilkanInfo() pada class ini menjadi dasar yang kemudian dapat digunakan dan disesuaikan oleh class turunannya.
+
+
+## JenisKelasPublik.java
+
+<img width="575" height="142" alt="image" src="https://github.com/user-attachments/assets/d2e07363-121e-4f3f-befa-3e41ea8acf6b" />
+
+Class JenisKelasPublik menerapkan override pada method tampilkanInfo() dari class JenisKelas. Method tersebut ditulis kembali agar dapat menampilkan informasi yang lebih spesifik untuk kelas publik, termasuk atribut tambahan berupa kapasitas peserta. Dengan demikian, ketika tampilkanInfo() dipanggil pada objek JenisKelasPublik, informasi yang ditampilkan akan menyesuaikan karakteristik kelas publik
+
+## JenisKelasPrivate.java
+
+<img width="592" height="137" alt="image" src="https://github.com/user-attachments/assets/da0c5a4c-3d02-4116-995d-6404ca7fd105" />
+
+Class JenisKelasPrivate juga menerapkan override pada method tampilkanInfo() yang berasal dari class JenisKelas. Method tersebut disesuaikan untuk menampilkan informasi khusus kelas private, yaitu tambahan berupa jenis sesi. Class ini tetap dapat menggunakan informasi dasar dari JenisKelas, tetapi menambahkan informasi yang sesuai dengan karakteristik kelas private.
+
+## JenisKelasPrivateVip.java
+
+<img width="662" height="146" alt="image" src="https://github.com/user-attachments/assets/6c6ced96-bb74-474f-ab2b-5b270b429f09" />
+
+Class JenisKelasPrivateVip menerapkan override pada method tampilkanInfo() yang diwarisi dari JenisKelasPrivate. Method tersebut digunakan untuk menampilkan informasi kelas private VIP dengan tambahan atribut fasilitas VIP. Class ini juga dapat menampilkan informasi dari class induknya sehingga informasi dasar kelas private tetap ditampilkan bersama informasi fasilitas khusus VIP.
+
