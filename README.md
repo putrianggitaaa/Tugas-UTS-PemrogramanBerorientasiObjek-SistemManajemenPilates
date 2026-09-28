@@ -145,25 +145,85 @@ Menu instruktur berisi 2 sub menu yaitu lihat dan tambah instruktur yang fungsin
 Pada sub menu ini, pengguna dapat menambahkan instruktur baru yang akan bergabung untuk memandu kelas di studio dengan memasukkan data-data pribadi instruktur tersebut. Program ini dilengkapi dengan input validator sehingga pengguna tidak akan dapat memasukkan ID yang sama secara berulang dan tidak dapat mengosongkan nama atribut.
 
 * **2. Lihat Instruktur**
-  
+ 
+<img width="507" height="476" alt="image" src="https://github.com/user-attachments/assets/285b46e9-7695-4b27-b241-eec659b2a3eb" />
 
 
 Pada sub menu ini, pengguna dapat melihat daftar instruktur yang telah terdaftar pada sistem.
 
 
 * **3. Kembali**
+  
+<img width="552" height="315" alt="image" src="https://github.com/user-attachments/assets/7ac885e3-3600-4454-98d4-736de68be65e" />
 
+Pada sub menu ini, pengguna dapat kembali ke menu utama program.
 
 ## Menu Jenis Kelas
+
+<img width="516" height="272" alt="image" src="https://github.com/user-attachments/assets/2ae54e85-bf2e-4173-b5f4-284872defcbb" />
+
+Menu jenis kelas berisi 2 sub menu yaitu lihat dan tambah jenis kelas yang fungsinya sebagai berikut:
+
 * **1. Tambah Jenis Kelas**
+<img width="702" height="417" alt="image" src="https://github.com/user-attachments/assets/c8c38a92-dc94-4c9f-ab47-1a43c93557c0" />
+
+Pada sub menu ini, pengguna dapat menambahkan jenis kelas baru yang akan dilaksanakan di studio dengan memasukkan informasi dari jenis kelas tersebut tersebut. Program ini dilengkapi dengan input validator sehingga pengguna tidak akan dapat memasukkan ID yang sama secara berulang dan tidak dapat mengosongkan nama atribut.
+
 * **2. Lihat Jenis Kelas**
+
+<img width="696" height="876" alt="image" src="https://github.com/user-attachments/assets/f3c27a40-391c-48cb-8e73-a26936d11930" />
+
+Pada sub menu ini, pengguna dapat melihat daftar jenis kelas yang telah terdaftar pada sistem.
+
 * **3. Kembali**
 
+<img width="546" height="377" alt="image" src="https://github.com/user-attachments/assets/1d490767-eb7f-4a8c-9ebf-508eade14206" />
+
+Pada sub menu ini, pengguna dapat kembali ke menu utama program.
+
 ## Menu Daftar Kelas
+
+<img width="548" height="328" alt="image" src="https://github.com/user-attachments/assets/1e608503-5e55-4b8f-b0d8-fecf0746386e" />
+
+Menu pendaftaran kelas berisi 4 sub menu yaitu lihat, tambah, hapus, dan perbarui daftar kelas yang fungsinya sebagai berikut:
+
 * **1. Lihat Daftar Kelas**
-* **2. Pendaftaran Kelas**
-* **3. Hapus Kelas**
-* **4. Update Status Kelas**
-* **5. Kembali**
   
+<img width="537" height="425" alt="image" src="https://github.com/user-attachments/assets/51137513-a2df-4eda-b88c-65217cd1c0db" />
+
+Pada sub menu ini, pengguna dapat melihat daftar kelas yang telah terdaftar pada sistem.
+
+* **2. Pendaftaran Kelas**
+
+<img width="541" height="266" alt="image" src="https://github.com/user-attachments/assets/068f9fb7-29bf-4c0a-8a68-f0013873e5a5" />
+
+Pada sub menu ini, sistem akan menampilkan id member, id instruktur, dan id jenis kelas agar pengguna dapat memilih member, instruktur, dan jenis kelas apa yang ingin ditambahkan. Setelah itu, akan muncul output dimana kelas berhasil ditambahkan dan tertera identitas member, instruktur, dan jenis kelas yang akan dilaksanakan. Program ini dilengkapi dengan input validator sehingga pengguna tidak akan dapat memasukkan ID yang sama secara berulang dan tidak dapat mengosongkan nama atribut.
+
+
+* **3. Hapus Kelas**
+
+<img width="515" height="123" alt="image" src="https://github.com/user-attachments/assets/ecb5e232-bf47-4858-8f3c-1d020bcd5bdf" />
+
+Pada sub menu ini, sistem akan mengarahkan pengguna untuk menginput ID kelas yang akan dihapus. Selanjutnya, sistem akan menghapus kelas sesuai dengan ID yang di input oleh pengguna.
+
+
+
+* **4. Update Status Kelas**
+
+<img width="510" height="367" alt="image" src="https://github.com/user-attachments/assets/397177c5-7ea5-4947-86c3-03d4b49eb5e1" />
+
+Pada sub menu ini, sistem dapat memperbarui status dari daftar kelas. Sub menu ini dapat digunakan untuk memperbarui status dari kelas yang telah didaftarkan dari Terjadwal menjadi Selesai atau Batal agar memudahkan pengelola dalam monitoring daftar kelasnya.
+
+* **5. Kembali**
+
+
+<img width="557" height="292" alt="image" src="https://github.com/user-attachments/assets/eae03350-5399-47c7-bf6d-6cb21ce164a8" />
+
+Pada sub menu ini, pengguna dapat kembali ke menu utama program.
+
 ## Keluar
+
+
+<img width="561" height="271" alt="image" src="https://github.com/user-attachments/assets/da60a3b3-f86e-450b-b367-f0de127bcb85" />
+
+Pada menu ini, pengguna akan diarahkan untuk keluar dari sistem.
