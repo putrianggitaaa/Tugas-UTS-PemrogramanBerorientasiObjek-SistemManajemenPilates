@@ -34,3 +34,31 @@ Class ini bertindak sebagai _subclass_ tipe 2 yang mewarisi class JenisKelasPriv
 Class ini berfungsi sebagai _subclass_ dari JenisKelas.java yang digunakan untuk merepresentasikan kelas Pilates publik. Selain mewarisi atribut dari JenisKelas, class ini memiliki atribut tambahan berupa kapasitas untuk menentukan jumlah peserta yang dapat mengikuti kelas publik tersebut.
 ## DaftarKelas.java
 Class ini berfungsi untuk menyimpan informasi mengenai pendaftaran atau jadwal kelas yang diikuti oleh member. Class ini menghubungkan beberapa data, yaitu ID member, ID instruktur, ID jenis kelas, tanggal kelas, jam kelas, ruangan, dan status kelas. Dengan adanya class ini, data member, instruktur, dan jenis kelas dapat dihubungkan dalam satu data pendaftaran kelas.
+
+# KODE YANG MENERAPKAN INHERITANCE
+Penerapan inheritance terdapat pada class JenisKelas yang bertindak sebagai superclass, JenisKelasPrivate dan JenisKelasPublik yang bertindak sebagai subclass, serta JenisKelasPrivateVip yang bertindak sebagai subclass tipe 2 dari JenisKelasPrivate. Penjelasannya adalah sebagai berikut:
+
+## JenisKelas.java
+
+<img width="870" height="868" alt="image" src="https://github.com/user-attachments/assets/7dd8d1f3-b589-49c6-ae23-dc14c8b25f4c" />
+
+Class JenisKelas berperan sebagai superclass yang menjadi dasar bagi jenis kelas Pilates lainnya. Class ini memiliki beberapa atribut umum, yaitu idJenis, namaJenis, level, dan durasi. Atribut tersebut merupakan informasi yang dibutuhkan oleh setiap jenis kelas Pilates. Class JenisKelas juga memiliki constructor yang digunakan untuk menginisialisasi atribut umum yang nantinya dapat diwariskan kepada subclass. Hal ini memungkinkan JenisKelasPrivate dan JenisKelasPublik menggunakan atribut yang sama tanpa perlu mendeklarasikan kembali atribut tersebut pada masing-masing class. Dengan demikian, JenisKelas menjadi induk (superclass), sedangkan JenisKelasPrivate dan JenisKelasPublik menjadi class turunan atau subclass.
+
+## JenisKelasPublik.java
+
+<img width="768" height="526" alt="image" src="https://github.com/user-attachments/assets/4fdef32c-d1c8-4104-a26e-6bc5f4fa0b7e" />
+
+Keyword extends menunjukkan bahwa JenisKelasPublik merupakan subclass dari JenisKelas. Class ini mewarisi atribut dan method yang dimiliki oleh superclass JenisKelas, seperti idJenis, namaJenis, level, dan durasi. JenisKelasPublik kemudian memiliki atribut tambahan yaitu Atribut kapasitas yang merupakan karakteristik khusus yang hanya ditambahkan pada class JenisKelasPublik untuk menentukan jumlah peserta dalam kelas publik. Inheritance juga diterapkan pada constructor melalui penggunaan Keyword super yang digunakan untuk memanggil constructor dari superclass JenisKelas. Dengan demikian, nilai idJenis, namaJenis, level, dan durasi dapat diteruskan dan diinisialisasi oleh constructor pada class JenisKelas. Setelah itu, kapasitas diinisialisasi sebagai atribut khusus milik JenisKelasPublik.
+
+## JenisKelasPrivate.java
+
+<img width="775" height="483" alt="image" src="https://github.com/user-attachments/assets/8df5fec7-2e94-4182-bfb6-9bb5f47bc266" />
+
+Keyword extends menunjukkan bahwa JenisKelasPrivate merupakan subclass dari JenisKelas. Dengan demikian, JenisKelasPrivate dapat mewarisi atribut dan method yang dimiliki oleh class JenisKelas. Selain atribut yang diwarisi, JenisKelasPrivate memiliki atribut khusus yaitu jenisSesi yang digunakan untuk menyimpan jenis sesi pada kelas private. Inheritance juga diterapkan pada constructor melalui penggunaan Keyword super yang digunakan untuk memanggil constructor dari superclass JenisKelas. Dengan demikian, nilai idJenis, namaJenis, level, dan durasi dapat diteruskan dan diinisialisasi oleh constructor pada class JenisKelas. Setelah itu, jenisSesi diinisialisasi sebagai atribut khusus milik JenisKelasPrivate.
+
+
+## JenisKelasPrivateVip.java
+
+<img width="867" height="478" alt="image" src="https://github.com/user-attachments/assets/2b9e9fc1-0343-4d53-84e6-5cfa377a4228" />
+
+JenisKelasPrivateVip merupakan turunan dari class JenisKelasPrivate sehingga dapat mewarisi atribut dan method yang dimiliki oleh class tersebut. Class ini kemudian menambahkan atribut khusus berupa fasilitas untuk menyimpan fasilitas tambahan pada kelas Pilates VIP. Constructor menggunakan super() untuk memanggil constructor dari class induk dan mengisi data yang diwariskan, kemudian this.fasilitas digunakan untuk menyimpan data fasilitas khusus VIP. Dengan inheritance ini, class JenisKelasPrivateVip dapat menggunakan kembali fitur dari JenisKelasPrivate tanpa harus menuliskan ulang kode yang sama.
